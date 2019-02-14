@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>presentation</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="impress">
+        <div class="step box img" data-x="-1000" data-y="-1500"></div>
+      <div class="step box title" data-x="0" data-y="-1500">
+        <p>What is JavaScript?</p>
+      </div>
+      <div class="step box" data-x="1000" data-y="-1500">
+          <p>JavaScript was created to <p class="center bg"> <q> <em> make web pages <span class="alive">alive</span> </em> </q> </p> </p>
+        </div>
+      <div class="step box title title-sm" data-x="2000" data-y="-1500">
+            <p> <span class="green">Java</span>Script  not <span class="green">Java</span> </p>
+            <p>
+                <img src="img/java-javascript.jpg" alt="java noy js" style="display: inline-block; width: 100%;">
+            </p>
+      </div>
+      <div class="step box title title-sm" data-x="3000" data-y="-1500" data-rotate="90">
+            <p>The programs in this language are called <span class="red">scripts</span></p>
+            <p>
+                  <img src="img/script.jpg" alt="scripts" style="display: inline-block; width: 100%;">
+            </p>
+      </div>
+      <div class="step box title title-sm" data-x="4000" data-y="0">
+          <p>JS runs in-browser</p>
+          <p style="width: 100%;">
+                <img src="img/browsers.jpg" alt="browsers" style="display: inline-block; width: 100%;">
+          </p>
+      </div>
+      <div class="step box big" data-x="1000" data-y="1000" data-z="4000">
+          <p class="red center bg">Nope !</p>
+          <p class="contain">
+                <img src="img/node.png" alt="node js" style="display: inline-block; width: 70%;">
+                <img src="img/ionic.png" alt="ionic" style="display: inline-block; width: 70%;">
+                <img src="img/reactnative.png" alt="react native" style="display: inline-block; width: 70%;">
+                <img src="img/electron.jpg" alt="electron js" style="display: inline-block; width: 70%;">
+          </p>
+      </div>
+      <div class="step box title" data-x="1000" data-y="1000" data-z="1000">
+          <p>JS needs <p class="red">"engine"</p> </p>
+          <p class="center bg contain" style="width: 100%">
+              <img src="img/v8.jpg" alt="engine" style="display: inline-block; width: 100%;">
+          </p>
+      </div>
+      <div class="step box title title-sm" data-x="2000" data-y="1000" data-rotate-y="90">
+          <ul>
+              <li>The engine reads (<strong>parses</strong>) the script.</li>
+              <li>Then it converts (<strong>compiles</strong>) the script to the machine language.</li>
+              <li>And then the machine code runs, pretty fast.</li>
+          </ul>
+      </div>
+      <div class="step box title title-sm" data-x="2000" data-y="2000">
+          <p>What can in-browser JavaScript do?</p>
+          <p>--> No access to memory or CPU</p>
+      </div>
+      <div class="step box title title-sm" data-x="2000" data-y="3000" data-rotate="90">
+          <ul>
+              <li>Add new HTML to the page, change the existing content, modify styles.</li>
+              <li>React to user actions, run on mouse clicks, pointer movements, key presses.</li>
+          </ul>
+      </div>
+      <div class="step box title title-sm" data-x="3000" data-y="3000" data-rotate="90">
+          <ul>
+              <li>Send requests over the network to remote servers</li>
+              <li>download and upload files</li>
+              <li>Remember the data on the client-side</li>
+          </ul>
+      </div>
+      <div class="step box title title-sm" data-x="1000" data-y="4000" data-scale="2">
+          <p><u>What CAN’T in-browser JavaScript do?</u></p>
+          <ul>
+              <li>no direct access to OS system functions.</li>
+              <li> 
+                <p>Different tabs/windows generally do not know about each other</p>
+             </li>
+          </ul>
+      </div>
+      <div class="step box" data-x="-1000" data-y="3000" data-rotate="90">
+          <p class="center bg">
+                <img src="img/limitations.png" alt="cross origin">
+          </p>
+      </div>
+      <div class="step box title title-sm" data-x="1000" data-y="3000">
+          <p><u>What makes JavaScript unique?</u></p>
+          <ul>
+              <li>Full integration with HTML/CSS.</li>
+              <li>Simple things are done simply.</li>
+              <li>Supported by all major browsers and enabled by default.</li>
+          </ul>
+          <p class="green">these 3 not found in any other langs</p>
+      </div>
+      <div class="step box bigger" data-x="1000" data-y="3000" data-rotate="90" data-z="6000">
+          <p>Languages “over” JavaScript: </p>
+            <p>
+                <img src="img/typescript.png" alt="typescript">
+                <img src="img/coffeescript.png" alt="coffeescript">
+                <img src="img/dart.png" alt="dart">
+            </p>
+            <span class="green">they are transpiled into js at run time</span>
+      </div>
+      <div class="step box title title-sm" data-x="5000" data-y="3000" data-scale="2">
+          <p class="red">ERRORS</p>
+          <p style="width: 100%;" class="green">You're human</p>
+          <p style="width: 80%;">
+              <img src="img/error.png" alt="error">
+          </p>
+      </div>
+      <div class="step box title title-sm" data-x="2000" data-y="4000" data-z="5000">
+          <p>In the browser, users don’t see errors by default. </p>
+          <p>so, we can't fix it !</p>
+      </div>
+      <div class="step box title" data-x="2500" data-y="4300" data-z="1000" data-rotate="90">
+          <p>Actually <span class="green">we can ...</span></p>
+          <h2>Developer console</h2>
+      </div>
+
+      <!-- <div class="step box" data-x="1000" data-y="5000" data-rotate="180">slide 19</div>
+      <div class="step box" data-x="2000" data-y="5000">slide 20</div>
+      <div class="step box" data-x="3000" data-y="5000" data-rotate-y="90">slide 21</div>
+      <div class="step box" data-x="4000" data-y="4000">slide 22</div> -->
+    </div>
+
+    <script src="js/impress.js"></script>
+    <script>
+      impress().init();
+    </script>
+  </body>
+</html>
