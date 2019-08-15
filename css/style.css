@@ -25,6 +25,10 @@ body {
     font-size: 4vw;
 }
 
+.box.title.social {
+    flex-direction: column;
+}
+
 .box.title.title-sm {
     font-size: 3vw;
     text-align: center;
@@ -94,8 +98,48 @@ body {
     max-width: 30%;
 }
 
+.name {
+    background-color: firebrick;
+    color: white;
+    padding: 10px;
+}
+.fa {
+    color: #fff;
+    padding: 18px;
+    border-radius: 50%;
+    line-height: 29px;
+}
+
+.fa-facebook {
+    background: #3b5998;
+}
+
+.fa-twitter {
+    background: #1da1f2;
+}
+
+.fa-github {
+    color: black;
+    font-size: 60px;
+    margin: 7px;
+    padding: 0;
+}
+
+.fa-question {
+    background: #db3552;   
+}
+
+.social ul {
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
 li {
     padding: 5px;
+    text-align: left;
 }
 
 .bigger {
